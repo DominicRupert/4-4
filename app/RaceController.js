@@ -26,3 +26,6 @@ drawRacers(){
 }
 
 }
+_drawRacers()
+_moveRacers()
+_drawDistance()
