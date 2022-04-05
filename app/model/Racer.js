@@ -5,20 +5,25 @@ export class Racer{
         this.number=number
         this.distance=distance
     }
+    move(){
+        this.distance += Math.floor(Math.random()*3)
+        }
     get Template() {
-        return `
+        return /*html*/ `
         <div class="col-md-3 d-flex bg-dark text-white" style="height: 50px; width: 100vw;">
         <div>
             <h1>${this.name}</h1>
             <img src="${this.picture}" alt="">
-            <div class="d-flex"></div>
+            <div class="d-flex">
+              <h4>${this.picture}</h4>
+              <h4>${this.number}</h4>
+              <h4 id="score-${this.name}">${this.distance}</h4>
+            </div>
         </div>
     </div>
         `
         
 
     }
-    move(){
-    this.distance += Math.floor(Math.random()*3)
-    }
+   
 }

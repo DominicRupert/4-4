@@ -1,4 +1,4 @@
-import { RaceController } from "./RaceController.js"
+import { RaceController } from "RaceController.js"
 
 
 class App{

@@ -1,4 +1,4 @@
-import { Racer } from "./model/Racer.js"
+import { Racer } from "model/Racer.js"
 
 
 

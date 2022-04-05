@@ -1,4 +1,5 @@
-import {AppState} from "/AppState.js"
+import {AppState} from "AppState.js"
+import { racerService } from "RacerService.js"
 function _drawRacers(){
     let template = ''
     const racers = AppState.racers
